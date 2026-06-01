@@ -88,4 +88,3 @@
 
 ---
 
-<p align="center"><i>"Build things. Ship things. Learn from everything."</i></p>
