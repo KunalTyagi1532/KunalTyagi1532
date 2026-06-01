@@ -23,43 +23,66 @@
 
 ### 🛠️ Tech Stack
 
-<p>
-  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
-  <img src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white" />
-  <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
-  <img src="https://img.shields.io/badge/MVVM-Architecture-blueviolet?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Firestore-FF6F00?style=for-the-badge&logo=googlecloud&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-</p>
+**Language**
+
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+
+**Android Development**
+
+![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Material 3](https://img.shields.io/badge/Material%203-757575?style=for-the-badge&logo=materialdesign&logoColor=white)
+
+**Architecture & Patterns**
+
+![MVVM](https://img.shields.io/badge/MVVM-Architecture-blueviolet?style=for-the-badge)
+![Dagger Hilt](https://img.shields.io/badge/Dagger%20Hilt-DI-orange?style=for-the-badge)
+![Kotlin Coroutines](https://img.shields.io/badge/Coroutines-Async-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+
+**Backend & Networking**
+
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Firestore](https://img.shields.io/badge/Firestore-FF6F00?style=for-the-badge&logo=googlecloud&logoColor=white)
+![Retrofit](https://img.shields.io/badge/Retrofit-REST-48B983?style=for-the-badge)
+![OkHttp](https://img.shields.io/badge/OkHttp-Networking-green?style=for-the-badge)
+
+**Tools**
+
+![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Gradle](https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white)
 
 ---
 
-### 🚀 Featured Projects
+### 🚀 Projects
 
 #### 💰 [WalletWise — Expense Tracker App](https://github.com/KunalTyagi1532/WalletWise-Expense-Tracker-App)
+
 > A full-featured personal finance Android app built with Jetpack Compose, MVVM, and Firebase.
 
-- Real-time expense & income tracking with Firestore sync
-- Budgeting, savings goals, and recurring transactions
-- Analytics dashboard with visual insights
-- Firebase Authentication for secure, per-user cloud data
+WalletWise helps users take control of their finances with a clean Material 3 interface and powerful under-the-hood features. Users can log income and expenses, set monthly budgets with overspending alerts, create savings goals and track progress, and set up daily/weekly/monthly recurring transactions. All data syncs in real-time via Firestore, with each user's data securely isolated behind Firebase Authentication. An analytics dashboard provides monthly summaries and spending breakdowns, while a calendar view lets users browse their transaction history by date.
 
-`Kotlin` `Jetpack Compose` `Firebase` `MVVM` `Firestore`
+`Kotlin` `Jetpack Compose` `Firebase Auth` `Firestore` `MVVM` `Material 3`
+
+---
+
+#### ⚽ [LaLiga Standings App](https://github.com/KunalTyagi1532/LaLiga)
+
+> An Android app displaying the La Liga 2022 final league standings, fetched from a live API.
+
+This app pulls standings data from RapidAPI and displays a full league table with each team's rank, logo, games played, goal difference, and points. Rows are styled by rank — gold for 1st, blue for Champions League spots, orange and green for European places — making the table instantly readable at a glance. Tapping any team opens a detail screen with complete statistics. Built with MVVM, Dagger Hilt for dependency injection, and Retrofit + OkHttp for networking. The UI gracefully handles loading, success, and error states with a retry option.
+
+`Kotlin` `Jetpack Compose` `MVVM` `Retrofit` `OkHttp` `Dagger Hilt` `RapidAPI`
 
 ---
 
 #### ☕ [CafeBrew UI](https://github.com/KunalTyagi1532/CafeBrew_UI)
-> A beautiful coffee menu UI built with Jetpack Compose — focused on clean design and smooth UX.
 
-`Kotlin` `Jetpack Compose`
+> A polished coffee menu UI concept built entirely with Jetpack Compose.
 
----
+CafeBrew is a UI-focused project showcasing what's possible with Jetpack Compose's declarative approach. It demonstrates smooth layouts, custom components, and a warm, café-inspired design — a playground for exploring Compose's design capabilities and pushing UI polish.
 
-#### ⚽ [LaLiga App](https://github.com/KunalTyagi1532/LaLiga)
-> An Android app exploring football data and UI.
-
-`Kotlin`
+`Kotlin` `Jetpack Compose` `UI Design`
 
 ---
 
