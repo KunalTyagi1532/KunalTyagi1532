@@ -1,7 +1,7 @@
 <h1 align="center">Hey, I'm Kunal Tyagi 👋</h1>
 
 <p align="center">
-  <b>Android Developer</b> · Kotlin · Jetpack Compose · Firebase
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6A5ACD&center=true&vCenter=true&width=500&lines=Android+Developer+%F0%9F%93%B1;Jetpack+Compose+Enthusiast+%E2%9C%A8;Kotlin+%7C+Java+%7C+Python+%7C+C%2B%2B;Firebase+%26+MVVM+Architecture;Building+clean%2C+modern+Android+apps" alt="Typing SVG" />
 </p>
 
 <p align="center">
